@@ -5,8 +5,18 @@ body{
 
 
 .wrapper{
+  min-width: 50%;
   text-align: center;
   margin: 0 auto 0 auto;
   width: 80%;
   color: gold;
+}
+
+.updateWindow{
+  padding-top: 30px;
+  margin: 0 auto 0 auto;
+  color: black;
+  height: 500px;
+  background-color: white;
+
 }
