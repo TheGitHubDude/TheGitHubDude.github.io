@@ -33,9 +33,11 @@
   var title = '<h1>New Updates</h1>';
   var updateWindow = document.getElementById('updateWindow');
 
-  updates = JSON.parse(updates);
+  updateWindow.innerHTML = title + "<br><br>";
 
-  updateWindow.innerHTML = title + updates.updates[0].date + "  :  " + updates.updates[0].message;
-
+ // alert(obj.updates);
+ obj.updates.forEach(function (update){
+    updateWindow.innerHTML = updateWindow.innerHTML + update.date + "  :  " + update.message + "<br><br>";
+ });
 
 </script>
