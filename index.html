@@ -25,11 +25,17 @@
 
 </body>
 </html>
+
 <script src="./javascripts/updates.js"></script>
 <script>
 
+  // alert(updates);
+  var title = '<h1>New Updates</h1>';
+  var updateWindow = document.getElementById('updateWindow');
 
+  updates = JSON.parse(updates);
 
+  updateWindow.innerHTML = title + updates.updates[0].date + "  :  " + updates.updates[0].message;
 
 
 </script>

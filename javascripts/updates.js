@@ -4,4 +4,4 @@ var updates = '{"updates":['+
   '{"date":"5/22/2016","message":"KONICHIWA"}'+
 ']}'
 
-alrt('updates.js');
+// alert('updates.js');
