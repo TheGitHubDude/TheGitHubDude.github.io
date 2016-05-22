@@ -9,6 +9,7 @@ body{
   color: gold;
   font-size: 30px;
   text-align: center;
+  margin: 0 auto 0 -20px;
 }
 
 .header_img_lft{
