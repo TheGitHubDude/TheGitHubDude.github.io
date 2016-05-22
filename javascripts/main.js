@@ -1,7 +1,7 @@
-
-
-var updateWindow = document.getElementById('updateWindow');
-
-var updates = "New Update";
-
-updateWindow.innerHTML = updates;
+//
+//
+// var updateWindow = document.getElementById('updateWindow');
+//
+// var updates = "New Update";
+//
+// updateWindow.innerHTML = updates;
