@@ -1,7 +1,7 @@
 
 
   // alert(obj);
-  var title = '<h1>New Updates</h1>';
+  var title = '<h1>Please Listen to Announcements for Updates</h1>';
   var updateWindow = document.getElementById('updateWindow');
 
 updateWindow.innerHTML = title + "<br><br>";
