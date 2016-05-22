@@ -8,7 +8,7 @@ body{
   min-width: 50%;
   text-align: center;
   margin: 0 auto 0 auto;
-  width: 80%;
+  width: 90%;
   color: gold;
 }
 
@@ -16,7 +16,8 @@ body{
   padding-top: 30px;
   margin: 0 auto 0 auto;
   color: black;
-  height: 500px;
+  height: auto;
   background-color: white;
+  font-size: 30px;
 
 }
