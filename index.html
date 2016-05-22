@@ -5,39 +5,21 @@
   <title>OLL Ping Pong Club</title>
 
   <link rel="stylesheet" href="stylesheets/main.css">
-
+  <!-- <script type="text/javascript" src="./javascripts/updates.js"></script> -->
+  <!-- <script type="text/javascript" src="./javascripts/main.js"></script> -->
 </head>
 
 <body>
 
   <div class="wrapper">
     <h1>OLL Ping Pong Club</h1>
-
     <h3>Updates</h3>
     <div class="updateWindow" id="updateWindow">
        New Updates Go Here
     </div>
-
-    <script type="text/javascript" src="./javascripts/main.js">
-    </script>
-
+    <script type="text/javascript" src="./javascripts/updates.js"></script>
+    <script type="text/javascript" src="./javascripts/main.js"></script>
   </div>
 
 </body>
 </html>
-
-<script src="./javascripts/updates.js"></script>
-<script>
-
-  // alert(updates);
-  var title = '<h1>New Updates</h1>';
-  var updateWindow = document.getElementById('updateWindow');
-
-  updateWindow.innerHTML = title + "<br><br>";
-
- // alert(obj.updates);
- obj.updates.forEach(function (update){
-    updateWindow.innerHTML = updateWindow.innerHTML + update.date + "  :  " + update.message + "<br><br>";
- });
-
-</script>
