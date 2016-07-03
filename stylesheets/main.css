@@ -4,19 +4,40 @@ body{
 }
 
 
+.header{
+  height: auto;
+  color: gold;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto 0 -20px;
+}
+
+.header_img_lft{
+  height: 150px;
+  float: left;
+  margin: 0 0 0 100px;
+}
+
+.header_img_rht{
+  padding-bottom: 10px;
+  height: 150px;
+  float: right;
+  margin: 0 0 0 0;
+}
+
 .wrapper{
   min-width: 50%;
   text-align: center;
   margin: 0 auto 0 auto;
-  width: 80%;
-  color: gold;
+  width: 90%;
 }
 
 .updateWindow{
   padding-top: 30px;
-  margin: 0 auto 0 auto;
+  margin: 12px auto 0 auto;
   color: black;
-  height: 500px;
+  height: auto;
   background-color: white;
+  font-size: 30px;
 
 }
